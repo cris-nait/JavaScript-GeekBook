@@ -1,0 +1,35 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    * {
+      font-size: 2rem;
+    }
+    #number_counter {
+      font-size: 3rem;
+      color: teal;
+      margin: 1rem;
+    }
+    #btn_container {
+      .btn {
+        outline: none;
+        padding: 1rem;
+        cursor: pointer;
+        color: teal;
+        border: 2px solid teal;
+        &:hover {
+          color: white;
+          background-color: teal;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+body .form_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .form_container * {
+  margin: 0.5rem;
+}
+
+body .form_container input {
+  padding: 0.5rem;
+}
+
+body .form_container .btn {
+  cursor: pointer;
+  background-color: #1e90ff;
+  color: white;
+  padding: 0.5rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  border-radius: 5px;
+}
+
+body .form_container .btn:hover {
+  background-color: #0077ea;
+}
+/*# sourceMappingURL=main.css.map */

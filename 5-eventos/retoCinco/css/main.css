@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, san-serif;
+}
+
+body .teachers {
+  list-style: none;
+  padding: 0;
+}
+
+body .teacher {
+  display: inline-block;
+  cursor: pointer;
+  padding: 20px;
+}
+
+body .teacher__img {
+  width: 200px;
+  height: auto;
+}
+
+body .teacher--selected {
+  background-color: antiquewhite;
+}
+/*# sourceMappingURL=main.css.map */
